@@ -1,0 +1,16 @@
+ecommerce_pipeline/
+│
+├── data/
+│   ├── raw/                    
+│   ├── processed/              
+│       ├── users_processed.csv
+│       ├── products_processed.csv
+│       ├── transactions_processed.csv
+│
+├── scripts/
+│   ├── generate_data.py        
+│   ├── etl_pipeline.py         
+│   ├── analysis.py             
+│
+├── reports/                    
+│   └── analysis_report.html    
